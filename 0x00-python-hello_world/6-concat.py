@@ -2,4 +2,4 @@
 str1 = "Holberton"
 str2 = "School"
 print(f'Welcome to '\
-        f'{str1} {str2}!')
+    f'{str1} {str2}!')
