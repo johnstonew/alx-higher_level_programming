@@ -7,6 +7,8 @@ creating new instance
 
 
 class LockedClass():
-    """ function to prevent other attributes
+    """
+    function to prevent other attributes
+    exept first_name
     """
     __slots__ = ["first_name"]
