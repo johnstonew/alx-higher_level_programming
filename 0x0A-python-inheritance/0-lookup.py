@@ -6,4 +6,8 @@ lookup function
 
 
 def lookup(obj):
+    """
+    lookup function
+    Return: list onjects
+    """
     return dir(obj)
