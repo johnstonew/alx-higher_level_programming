@@ -7,8 +7,8 @@ My List class
 
 class MyList(list):
     """
-    MyList Class
-    prints sorted list
+    MyList Class prints sorted list
+    @new_list = stores copied list
     """
     def print_sorted(self):
         new_list = self.copy()
