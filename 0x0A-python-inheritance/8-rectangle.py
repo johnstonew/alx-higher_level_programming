@@ -10,11 +10,15 @@ inherits from BaseGeometry
 class Rectangle(BaseGeometry):
     """
     Rectangles class that inherits BaseGeometry
-    Args:
-    @width (int): width of rectangle
-    @height (int): height of rectangle
     """
+
     def __init__(self, width, height):
+        """
+        Initialization of Rectagle
+        Args:
+        @width (int): width of rectangle
+        @height (int): height of rectangle
+        """
         self.__width = width
         self.__height = height
         self.integer_validator("width", width)
