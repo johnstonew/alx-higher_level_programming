@@ -132,3 +132,14 @@ class Rectangle(Base):
                     self.x = f
                 elif i == "y":
                     self.y = f
+
+    def to_dictionary(self):
+        """ dictionary function """
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
+
