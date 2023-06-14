@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/local/bin/node
 function add (a, b) {
   return a + b;
 }
@@ -9,4 +9,5 @@ const secondArgument = process.argv[3];
 const num1 = parseInt(firstArgument);
 const num2 = parseInt(secondArgument);
 
-add(num1, num2);
+result = add(num1, num2);
+console.log(result);
