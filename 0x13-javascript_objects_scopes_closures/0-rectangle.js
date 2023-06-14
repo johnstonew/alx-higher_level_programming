@@ -1,8 +1,9 @@
-//#!/usr/bin/node
 #!/usr/local/bin/node
-class Rectangle {
-  constructor (height, width) {
+const Rectangle = class {
+  constructor(height, width) {
     this.height = height;
     this.width = width;
   }
-}
+};
+
+exports Rectangle = Rectangle;
