@@ -9,5 +9,5 @@ const secondArgument = process.argv[3];
 const num1 = parseInt(firstArgument);
 const num2 = parseInt(secondArgument);
 
-result = add(num1, num2);
+const result = add(num1, num2);
 console.log(result);
