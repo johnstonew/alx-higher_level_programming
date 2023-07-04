@@ -5,7 +5,6 @@ from urllib.error import URLError
 from urllib.parse import urlencode
 from sys import argv
 
-
 def make_post_request(url_str: str, email_arg: str):
     try:
         data = urlencode({"email": email_arg})
