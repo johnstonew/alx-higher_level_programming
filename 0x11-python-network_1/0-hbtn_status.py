@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """script that fetches a url"""
-import urllib.request
+from urllib.request import urlopen, Request
 from urllib.error import URLError
 
 
